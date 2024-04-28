@@ -2,6 +2,10 @@ body{
     padding-top:0px;
     padding-bottom:0px ;
     margin-bottom: 0px;
+    background-image: linear-gradient(rgb(0, 0, 0,0.7),rgb(0, 0, 0,0.7)),url(/image/ab4031aa-1052-4bbe-9c35-5d6bb552fd47);
+    background-size: cover;
+    background-position: center;
+    height:100%;
 }
 .bg-orange{
 background-color:#fd7e14;
@@ -9,14 +13,21 @@ background-color:#fd7e14;
 .text-orange{
     color: #fd7e14;
 }
+.border-none{
+    border: none;
+}
+.bg-none{
+    background: none;
+}
 .border-orange{
-    border-color:#fd7e14 ;
+    border:solid 1px#fd7e14 ;
+   
 }
 header{
     background-image: linear-gradient(rgb(0, 0, 0,0.7),rgb(0, 0, 0,0.7)),url(/image/ab4031aa-1052-4bbe-9c35-5d6bb552fd47);
     background-size: cover;
-    background-position: unset;
-    height: 100vh;
+    background-position: center;
+    height:100vh;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -46,7 +57,7 @@ button[type="submit"]{
     width: 100%;
 }
 h1 span{
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 h2{
@@ -58,4 +69,10 @@ h2{
 }
 .bgn{
     background:none ;
+}
+.text-white{
+    color: white;
+}
+.nav-link:hover{
+   color: orangered;
 }
